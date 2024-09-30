@@ -662,6 +662,53 @@ padding: 8vw;
 
 /* Course_inner */
 
+#course-inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 8vw;
+}
+
+#course-inner .overview{
+  width: 70%;
+}
+
+#course-inner .overview img{
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+#course-inner .overview .course-head{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#course-inner .overview .course-head .c-name{
+  width: 70%;
+}
+
+#course-inner .overview .course-head .c-name .star{
+  margin: 6px 0;
+  color: red;
+}
+
+#course-inner .overview .course-head .c-name p{
+  color: #6e6e6e;
+}
+
+#course-inner .overview .course-head span{
+  padding: 16px 23px;
+  color: rgb(89, 53, 248);
+  font-size: 24px;
+  font-weight: 700;
+  background-color: rgb(213, 219, 253);
+  border-radius: 8px;
+}
+
 /* contact */
 
 /* responsive */
