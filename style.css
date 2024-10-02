@@ -709,6 +709,32 @@ padding: 8vw;
   border-radius: 8px;
 }
 
+#course-inner .learn p{
+font-size: 15px;
+padding-bottom: 15px;
+}
+
+#course-inner .learn p i{
+  color: slateblue;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+#course-inner .tutor{
+  display: flex;
+}
+
+#course-inner .tutor img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+#course-inner h3{
+  padding: 35px 0 25px 0;
+}
+
 /* contact */
 
 /* responsive */
